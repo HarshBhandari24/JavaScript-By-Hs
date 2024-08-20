@@ -14,3 +14,4 @@ console.log(typeof 18);
 console.log(typeof null);   //object
 console.log(typeof undefined);  //undefined
 console.log(name);
+console.log(age);
