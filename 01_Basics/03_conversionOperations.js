@@ -53,6 +53,13 @@ console.log("1"+2+2);
 console.log(1+2+"2");
 console.log((3+4) * (5/4) *(5-2)); //uses more small parenthesis to make clean code.
 console.log(true);
-console.log(true+);
+// console.log(true+) not valid
 console.log(+true);
+console.log(+"");
+let num1,num2,num3
+num1=num2=num3=3+3
+
+let gamecounter=100
+gamecounter ++  //read the detail of prefix and postfix from mdnJS documenation.
+console.log(gamecounter);
 
