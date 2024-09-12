@@ -62,4 +62,3 @@ num1=num2=num3=3+3
 let gamecounter=100
 gamecounter ++  //read the detail of prefix and postfix from mdnJS documenation.
 console.log(gamecounter);
-
