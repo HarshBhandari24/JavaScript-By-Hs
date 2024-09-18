@@ -80,3 +80,4 @@ console.log(undefined == 0); //==,=<,>=,<,> in this all scenerio it shows the fa
 
 console.log("2"===2); // it shows false beacause here it is check (=== means strict check), here it shows false because both datatypes are differnt , so it is False//
 console.log("2"==2); // it shows true because here we use eqality check operator and it check only the vlues not datatypes , so it is True//
+console.log();
