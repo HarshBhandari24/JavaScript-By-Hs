@@ -1,3 +1,5 @@
+/*
+
 let score = "33"
 
 console.log(typeof score);
@@ -33,14 +35,16 @@ console.log(typeof stringNumber);
 // Operations
 let digit =4;
 let negdigit =-digit;
-/*console.log(negdigit);
+
+
+// console.log(negdigit);
 console.log(2+2);
 console.log(2-2);
 console.log(2*2);
 console.log(2/2);
 console.log(2**3);
 console.log(2%3);
-console.log(3%2);*/
+console.log(3%2); //
 
 let str1 = "Hello"
 let str2 = " Harsh"
@@ -62,3 +66,17 @@ num1=num2=num3=3+3
 let gamecounter=100
 gamecounter ++  //read the detail of prefix and postfix from mdnJS documenation.
 console.log(gamecounter);
+
+*/
+console.log("2">1);
+console.log("02">1);
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+console.log(null <= 0);
+
+console.log(undefined == 0); //==,=<,>=,<,> in this all scenerio it shows the false in answer//
+
+console.log("2"===2); // it shows false beacause here it is check (=== means strict check), here it shows false because both datatypes are differnt , so it is False//
+console.log("2"==2); // it shows true because here we use eqality check operator and it check only the vlues not datatypes , so it is True//
