@@ -81,3 +81,32 @@ console.log(undefined == 0); //==,=<,>=,<,> in this all scenerio it shows the fa
 console.log("2"===2); // it shows false beacause here it is check (=== means strict check), here it shows false because both datatypes are differnt , so it is False//
 console.log("2"==2); // it shows true because here we use eqality check operator and it check only the vlues not datatypes , so it is True//
 
+//****************Datattypes Summary***************
+
+// Primitive
+
+// 7 Types:- String, Boolean, Number, Symbol, null, undefined, BigInt. 
+
+const score = 100
+const scorevalue = 100.3
+const isloggedin = false
+const outsideTemp = null
+let userEmail; /* let usermail=undefined (Both are undefined)*/
+console.log(userEmail);
+const bigNumber = 213215456132151154n /* here in last small n represent the bigInt number */
+const Id =Symbol('123')
+const anotherId =Symbol('123')
+
+console.log(Id===anotherId);
+
+//Reference(Non-Premitive)
+
+// 3 Types:- Array, Object,Function 
+
+const heros = ["shaktimaan","kohli","Demon"]; /* array insquare Bracket */
+let myObj = {
+    name: "Harsh", age: 22 } /* Object in Carly Braces */
+const myFunction = function(){
+    console.log("Hello World");
+}
+console.log(typeof myFunction); /* typeof is used to know the type of data type */
