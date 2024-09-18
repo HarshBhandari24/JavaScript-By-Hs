@@ -110,3 +110,32 @@ const myFunction = function(){
     console.log("Hello World");
 }
 console.log(typeof myFunction); /* typeof is used to know the type of data type */
+
+// ***********STACK AND HEAP MEMORY***********
+
+//Stack memory is used in (Primitive Datatypes)     it gives us the copy of variable.
+
+//Heap Memory is Used in Refernce (Non-Primitive Datatypes)  it gives us the reference of original value.
+
+/*      concept of stack memory 
+let myyoutubename = "Harshit"
+let anothername = myyoutubename
+anothername = "Harsh"
+
+console.log(myyoutubename);
+console.log(anothername);
+*/
+
+/*      concept of Heap Memory
+let userone = {
+    userEmail : "user1@google.com",
+    userUpi : "user1@axl"
+}
+
+let usertwo = userone
+usertwo.userUpi = "modi1@axl"
+
+console.log(userone.userUpi);
+console.log(usertwo.userUpi);
+*/
+
