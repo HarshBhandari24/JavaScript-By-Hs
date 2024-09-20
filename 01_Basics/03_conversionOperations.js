@@ -117,16 +117,16 @@ console.log(typeof myFunction); /* typeof is used to know the type of data type 
 
 //Heap Memory is Used in Refernce (Non-Primitive Datatypes)  it gives us the reference of original value.
 
-/*      concept of stack memory 
+     // concept of stack memory 
 let myyoutubename = "Harshit"
 let anothername = myyoutubename
 anothername = "Harsh"
 
 console.log(myyoutubename);
 console.log(anothername);
-*/
 
-/*      concept of Heap Memory
+
+    //  concept of Heap Memory
 let userone = {
     userEmail : "user1@google.com",
     userUpi : "user1@axl"
@@ -137,5 +137,5 @@ usertwo.userUpi = "modi1@axl"
 
 console.log(userone.userUpi);
 console.log(usertwo.userUpi);
-*/
+
 
