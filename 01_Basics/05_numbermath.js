@@ -18,4 +18,12 @@ console.log(Math.floor(4.9));
 console.log(Math.sqrt(25));
 console.log(Math.max(4,8,9,2));
 console.log(Math.min(5,4,3,8));
+console.log(Math.random());
+console.log((Math.random() *10)+1);
+console.log(Math.floor(Math.random()*10)+1);
 
+const max =20;
+const min =10;
+console.log( max);
+console.log(min);
+console.log(Math.floor (Math.random()*(max-min+1))+min);
