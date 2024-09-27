@@ -37,3 +37,17 @@ const obj3 ={5:"a",6:"b" }
 // const obj5 = {...obj1,...obj2,...obj3}
 // console.log(obj5);
 
+const course ={
+    coursename: "JAvascript",
+    courseInstructor:"HiteshCHoudharhy",
+    CourseFees:"999"
+}
+const {courseInstructor: Instructor} = course   // It is called destructure method::this is also method to print the objects elements, without typing the long syntax\\
+
+console.log(Instructor);
+
+{       //this is called JSON api. in this keys and values both are types in double colon [""] and they are look like string\\
+    "name";"HArsh",
+    "CourseDetail":"JS",
+    "Price":"Free"
+}
