@@ -78,4 +78,3 @@ function returnsecondvalue (getarray){
 // console.log(returnsecondvalue(mynewArray));
 //we also do this 
 console.log(returnsecondvalue([200, 300, 400, 500]));
-
