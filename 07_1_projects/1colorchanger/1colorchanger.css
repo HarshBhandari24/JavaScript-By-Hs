@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+}
+span{
+    display: block;
+}
+.canvas{
+    margin: 100px auto 100px ;
+    width: 60%; 
+    text-align: center;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+}
+#grey{
+   background-color: gray;
+}
+#white{
+   background-color: white;
+}
+#blue{
+   background-color: blue;
+}
+#orangered{
+   background-color: orangered;
+}
+#skyblue{
+   background-color: skyblue;
+}
+#black{
+   background-color: black;
+}
